@@ -1,0 +1,6 @@
+sequence:
+- repeat:
+    # Infinite loop
+    sequence:
+      - press:
+          key: a

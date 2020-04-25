@@ -1,0 +1,28 @@
+options:
+  interval: 0.8
+
+sequence:
+- press: {key: a}
+- press: {key: b}
+- sleep: 2
+- press: {key: a}
+- press: {key: down}
+# Press “I want visitors”
+- press: {key: a}
+- press: {key: b}
+- sleep: 2
+- press: {key: a}
+- press: {key: down}
+# Press “via online play”
+- press: {key: a}
+- press: {key: b}
+- sleep: 2
+- press: {key: a}
+- press: {key: a}
+# Wait for internet connection
+- sleep: 20
+- press: {key: a}
+# Press “all my friends!”
+- press: {key: a}
+- sleep: 5
+- press: {key: a}

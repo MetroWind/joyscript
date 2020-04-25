@@ -1,0 +1,9 @@
+= joyscript
+
+A simple script executor for
+https://github.com/mart1nro/joycontrol[joycontrol].
+
+== Usage
+
+See `-h` message. The interval between key presses can be specified in
+the script file. By default it is 0.5 second.

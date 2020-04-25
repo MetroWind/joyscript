@@ -1,0 +1,6 @@
+sequence:
+- repeat:
+    duration: 9
+    sequence:
+      - press:
+          key: a
